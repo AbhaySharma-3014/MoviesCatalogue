@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+* {
+  scroll-behavior: smooth;
+}
+
+
+.app {
+  min-height: 100vh;
+  background-color:#004643;
+  font-family: 'Kanit', sans-serif;
+  color: white;
+  padding-top: 130px;
+  padding-bottom: 70px;
+}
+
+@media (max-width: 700px) {
+  .app {
+    padding-top: 70px;
+  }
+}
+
+.pageTitle {
+  background-color: grey;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-family: 'Fugaz One', cursive;
+  font-size: 2vw;
+  padding: 4px;
+  margin-bottom: 4%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 50px;
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  .pageTitle {
+    font-size: 6.4vw;
+  }
+}
